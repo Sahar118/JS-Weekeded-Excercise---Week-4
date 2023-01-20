@@ -14,8 +14,8 @@ console.log(' ** (✿◠‿◠) Ex2.5 - Summation   (◠‿◠✿) ** ');
 
 
 function summation(n) {
-    var total = 0;
-    for(var i = 1; i <= n; i++){
+    let total = 0;
+    for(let i = 1; i <= n; i++){
         total += i;
       }
     return total;

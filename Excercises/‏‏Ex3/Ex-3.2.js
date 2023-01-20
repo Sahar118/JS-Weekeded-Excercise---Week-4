@@ -14,3 +14,27 @@ console.log(' ** (✿◠‿◠)Ex3.2 - Growth Of population  (◠‿◠✿) ** '
 // Please keep in mind that the test cases ensure that the number of people in the bus is always 
 // >= 0. So the return integer can't be negative. 
 // The second value in the first integer array is 0, since the bus is empty in the first bus stop.
+
+const testArr = [
+    [10, 0],
+    [9, 1],
+    [8, 2],
+    [7, 3],
+    [6, 4],
+    [5, 5],
+    [4, 6],
+    [3, 7],
+    [2, 8],
+    [1, 9],
+    [0, 9],
+  ];
+
+  function peopleOnTheBus(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+      total = total + arr[i][0] - arr[i][1];
+    //   return total; 
+    }
+    console.log(total);
+  }
+  console.log(peopleOnTheBus(testArr));

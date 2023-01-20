@@ -1,7 +1,3 @@
-// ****************************************************************************
-console.log(' ** (✿◠‿◠) Ex6.4 - isogram   (◠‿◠✿) ** ');           
-// ****************************************************************************
-
 function duplicatecount(text) {
     let count = 0;
     let obj = {};
@@ -24,4 +20,4 @@ function duplicatecount(text) {
   }
   console.log(duplicatecount("Dermatoglyphics"));
   console.log(duplicatecount("aba"));
-  console.log(duplicatecount("moOse"));
+  console.log(duplicatecount("moOse"));                                             
