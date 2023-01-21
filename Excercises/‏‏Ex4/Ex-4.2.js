@@ -21,7 +21,20 @@ console.log(' ** (✿◠‿◠) Ex4.2 - Tribonacci -  (◠‿◠✿) ** ');
 // return an empty array (except in C return NULL) and be ready for anything else which is not 
 // clearly specified ;)   
 
-const FibonacciNum = function (n) {
+// const FibonacciNum = function (n) {
+//     if (n === 1) {
+//       return [0, 1, 1];
+//     } else {
+//       let i = FibonacciNum(n-1);
+//       i.push(i[i.length - 1] + i[i.length - 2]+ i[i.length - 3]);
+//       return i;
+//     }
+//   };
+  
+//   console.log(FibonacciNum(14));
+
+
+  const FibonacciNum = function (n) {
     if (n === 1) {
       return [0, 1, 1];
     } else {

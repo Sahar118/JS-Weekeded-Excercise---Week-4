@@ -23,3 +23,13 @@ const getInitials = (name) => {
 
 console.log(getInitials(fullName1));
 console.log(getInitials(fullName2));
+
+// ****************
+
+// const fullNames = ["Sam Harris"];
+const fullNames = ["Patrick Feeney"];
+
+
+const userNames = fullNames.map(fullName => fullName.toUpperCase().split(" ").map((n) => n[0][0]).join("."));
+
+console.log(userNames);

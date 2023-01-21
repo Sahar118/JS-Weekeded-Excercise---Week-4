@@ -8,12 +8,12 @@ console.log(' ** (✿◠‿◠) Ex2.4 - Unique   (◠‿◠✿) ** ');
 // It’s guaranteed that array contains at least 3 numbers.
 
 function findUniq(arr){
-    let movment = arr.sort();
+    let num = arr.sort();
 
-    if(movment[0]== movment[1]){
-        return movment[movment.length-1];
+    if(num[0]== num[1]){
+        return num[num.length-1];
     }
-    else {return movment[0]; }
+    else {return num[0]; }
 
 }
 // const test = findUniq([ 1, 1, 1, 2, 1, 1 ]);

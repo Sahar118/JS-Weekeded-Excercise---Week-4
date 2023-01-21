@@ -19,9 +19,15 @@ function toWeirdCase(string) {
     let newString = " ";
     for (let i = 0; i < string.length; i++) {
       newString +=
-        i % 2 === 0 ? string[i].toUpperCase() : string[i].toLowerCase();
-    }
+        i==0|| i % 2 === 0 ? string[i].toUpperCase() : string[i].toLowerCase();
+      }
+      console.log(newString);
     return newString;
   }
   toWeirdCase("String");
   toWeirdCase("Weird string case");
+
+
+
+
+// ***************
