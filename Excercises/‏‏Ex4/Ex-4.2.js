@@ -20,3 +20,15 @@ console.log(' ** (✿◠‿◠) Ex4.2 - Tribonacci -  (◠‿◠✿) ** ');
 // Signature will always contain 3 numbers; n will always be a non-negative number; if n == 0, then 
 // return an empty array (except in C return NULL) and be ready for anything else which is not 
 // clearly specified ;)   
+
+const FibonacciNum = function (n) {
+    if (n === 1) {
+      return [0, 1, 1];
+    } else {
+      let i = FibonacciNum(n-1);
+      i.push(i[i.length - 1] + i[i.length - 2]+ i[i.length - 3]);
+      return i;
+    }
+  };
+  
+  console.log(FibonacciNum(14));

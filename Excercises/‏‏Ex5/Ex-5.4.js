@@ -14,12 +14,14 @@ console.log(' ** (✿◠‿◠) Ex5.4 - To Weird Case   (◠‿◠✿) ** ');
  
 // toWeirdCase( "Weird string case" );//=> returns "WeIrD StRiNg CaSe"
 
-// function toWeirdCase(sentence){
-    
-//     for (let i=0; i<= sentence.length; i++){
-//         const chartOdd = !sentence[i]%2 ===0
-//         chartOdd ? chartOdd.toUpperCase() : chartOdd.toLowerCase();
-//     }
-// }
-// toWeirdCase( "String" )
 
+function toWeirdCase(string) {
+    let newString = " ";
+    for (let i = 0; i < string.length; i++) {
+      newString +=
+        i % 2 === 0 ? string[i].toUpperCase() : string[i].toLowerCase();
+    }
+    return newString;
+  }
+  toWeirdCase("String");
+  toWeirdCase("Weird string case");

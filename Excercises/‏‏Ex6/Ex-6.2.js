@@ -2,25 +2,7 @@
 // // ****************************************************************************
 // console.log(' ** (✿◠‿◠) Ex6.2 - Counting Duplicates (◠‿◠✿) ** ');           
 // // ****************************************************************************
-// // //   const votes = 'aabbcdef';
-// // const countOnlyVowels = (string) => {
-// //     let array = string.split('');
-// //     const elementCounts = array.reduce((count, item) => (count[item] = count[item] + 1 || 1, count), {});}
 
-//     // console.log(countOnlyVowels('aabbcdef'));
-// // console.log(elementCounts('aabbcdef'));
-// //     array.reduce((arr, obj)=>{
-    
-// //             if(array[obj]){
-// //             array[obj]++
-// //         }else {
-// //             array[obj]=1 
-// //         }
-
-// //         // return array;
-// //         }, {})
-// //     console.log(array);
-// // }    
 
 // // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 

@@ -17,17 +17,15 @@ console.log(' ** (✿◠‿◠) Ex5.6 - Mask   (◠‿◠✿) ** ');
 // maskify("Nananananananananananananananana Batman!") == 
 // "####################################man!" 
 
-// function maskify(pssw){
-//     if
-// }
-// function maskify(passw){
-//     // let password = pssw.split(" ");
-  
-//     if (passw.length > 1) {
-//         passw = passw.charAt(0).splice('').join('#');
-  
-//       return passw;
-//     }
-//   };
 
-//   console.log(maskify("Skippy"));  
+function maskify(changesAll) {
+    let arr = changesAll.slice(-4);
+    let arr2 = changesAll.split(" ");
+    for (let i = 0; i < arr2.length; i++) {
+      arr2[i] = arr2[i].replace(/[a-zA-Z0-9" "]/g, "#");
+    }
+    let str = arr2.join("#");
+    let total = str.slice(0, -4) + arr;
+    return total;
+  }
+  console.log(maskify("Skippy"));
